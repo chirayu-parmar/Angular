@@ -12,7 +12,7 @@ export class SalesPersonListComponent implements OnInit {
   ];
 
   ngOnInit() {
-    this.salesPersonList.push(new SalesPerson("Jane", "Smith", "jane.smith@example.com", 60000));
+    this.salesPersonList.push(new SalesPerson("Jane", "Smith", "jane.smith@example.com", 40000));
     this.salesPersonList.push(new SalesPerson("Alex", "Smith", "alex.smith@example.com", 70000));
     this.salesPersonList.push(new SalesPerson("Mike", "Ross", "mike.ross@example.com", 80000));
   }
